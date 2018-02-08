@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>PravoAgency</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+      <header>
+        <div class="container">
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img alt="logo" src="images/logo.png" /></a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#services">Услуги и цены</a></li>
+                  <li><a href="#reviews">Отзывы</a></li>
+                  <li><a href="#contacts">Контакты</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+              <button class="lang-button">
+                <div class="circle"></div>RU
+              </button>
+            </div><!-- /.container-fluid -->
+          </nav>
+
+          <div class="slogan-block row">
+            <div class="slogan col-xs-12 col-sm-6">
+              <h3 class="slogan-header">Правовое сопровождение<br /> малого ИТ-бизнеса</h3>
+              <hr class="horizontal-line" />
+              <p class="slogan-text">
+                Зачастую интернет-проекты, разработчики, маркетологи, дизайнеры,
+                стартаперы и другие IT-специалисты не уделяют должного внимания
+                правовым аспектам своей деятельности.
+              </p>
+              <p class="slogan-text">
+                Но <span class="text-highlighted">документы должны быть в порядке</span>, и мы в этом поможем.
+              </p>
+              <button class="services-button">
+                <img alt="button-image" src="images/btn-services.png" />
+                Услуги и цены
+              </button>
+            </div>
+            <div class="banner hidden-xs col-sm-6">
+              <img alt="banner" src="images/person.png" />
+            </div>
+
+          </div><!-- /.slogan-block -->
+          <div>
+            <button class="play-button">
+              <img alt="play-button" src="images/btn-play.png" />
+            </button>
+          </div>
+        </div><!-- /.container -->
+      </header>
+
+      <div class="content-wrapper">
+        <!-- Services -->
+        <div id="services" class="content container-fluid">
+          <!-- Services header -->
+          <div class="block-header-wrapper center-text row">
+            <div class="col-xs-12 col-sm-12">
+              <h4 class="block-header">Услуги и цены</h4>
+              <hr class="horizontal-line center-block" />
+              <p>
+                <span class="text-highlighted">Pravo agency</span> выполняет роль юристов-аутсорсеров,
+                надежно прикрывая<br /> правовой тыл вашей деятельности.
+              </p>
+            </div>
+          </div>
+          <hr class="block-divider" />
+
+          <div class="services-blocks">
+            <div id="modal" class="row">
+              <div class="modal-wrapper col-sm-6">
+                <div class="modal-service-block">
+                  <div class="block-inline">
+                    <p class="modal-label">
+                      Услуга
+                    </p>
+                  </div>
+                  <div class="block-inline modal-info">
+                    <h5 id="modal-service-header" class="text-highlighted">Service<br /> header</h5>
+                    <p class="modal-text">
+                      Борьба внутри меня, и я был в самых разных ситуациях в
+                      моей жизни. <span class="text-highlighted">Таким образом,
+                      борьба, что у меня на постоянной основе, это просто
+                      пробовать и быть лучше.</span>
+                    </p>
+                    <p class="modal-text">
+                      Есть определенная разница между публичным человеком и
+                      обычным человеком, это как сойти с ума - для меня во
+                      всяком случае - открыть себя целиком для всего мира.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="modal-service-block">
+                  <div class="block-inline">
+                    <p class="modal-label">
+                      Цены
+                    </p>
+                  </div>
+                  <div class="block-inline modal-info prices">
+                    <div class="inline">
+                      <p>
+                        <span class="text-highlighted">< 50</span><br />
+                        Сотрудников
+                      </p>
+                      <p>
+                        от <span class="text-highlighted"><span class="price">5000</span> грн.</span>
+                      </p>
+                    </div>
+                    <div class="inline">
+                      <p>
+                        <span class="text-highlighted">50-100</span><br />
+                        Сотрудников
+                      </p>
+                      <p>
+                        от <span class="text-highlighted"><span class="price">15000</span> грн.</span>
+                      </p>
+                    </div>
+                    <div class="inline">
+                      <p>
+                        <span class="text-highlighted">> 100</span><br />
+                        Сотрудников
+                      </p>
+                      <p>
+                        от <span class="text-highlighted"><span class="price">25000</span> грн.</span>
+                      </p>
+                    </div>
+                    <div class="">
+                      <button class="order-button">Заказать</button>
+                    </div>
+                  </div>
+                </div>
+                <button id="modal-close" class="modal-close"><img src="images/modal-left.png" /></button>
+              </div>
+            </div><!-- /#modal.row -->
+
+            <div class="services-first row">
+              <!-- Services: first block -->
+              <div class="services-block first col-xs-12 col-sm-6">
+  			        <span class="icon first"></span>
+                <div class="services-wrapper">
+  				        <h5 class="services-header">Наведение порядка<br /> в делах</h5>
+  				        <p>
+                    Аудит документов и платежей на предмет:
+                  </p>
+                  <ul>
+                    <li>
+                      соблюдения необходимых формальностей и процедур,
+                    </li>
+                    <li>
+                      наличия всех оригинальных договоров, актов,
+                    </li>
+                    <li>
+                      легализация зависших платежей.
+                    </li>
+                  </ul>
+        				  <button class="info-button" id="info1"><i class="fa fa-info"></i></button>
+                </div><!-- /services-wrapper -->
+              </div><!-- /services-block -->
+              <!-- Services: second block -->
+              <div class="services-block second col-xs-12 col-sm-6">
+        			  <span class="icon second"></span>
+        			  <div class="services-wrapper">
+        			    <h5 class="services-header">Оптимизация<br /> договорных отношений</h5>
+          				<ul>
+          				  <li>
+            					Доработка, латание дыр и улучшение условий основных типовых
+            					договоров вашей компании
+          				  </li>
+          				  <li>
+            					Оформление сотрудников на оптимальных условиях ведения
+            					деятельности и налогообложения
+          				  </li>
+          				  <li>
+            					Составление договоров, соглашений о конфиденциальности,
+            					публичных офферт
+          				  </li>
+          				</ul>
+          				<button class="info-button" id="info2"><i class="fa fa-info"></i></button>
+        			  </div><!-- /services-wrapper -->
+              </div><!-- /services-block -->
+            </div><!-- /.services-first.row -->
+            <hr class="block-divider dashed" />
+            <div class="services-second row">
+                <!-- Services: third block -->
+                <div class="services-block third col-xs-12 col-sm-6">
+          			  <span class="icon third"></span>
+          			  <div class="services-wrapper">
+          			    <h5 class="services-header">Правовое сопровождение<br /> деятельности (юрист-аутсорсер)</h5>
+                      <ul>
+                        <li>
+                          Участие в заключении договоров: минимизация рисков, усиление
+                          ваших позиций
+                        </li>
+                        <li>
+                          Юридическая консультация
+                        </li>
+                        <li>
+                         Дайджест предпринимательских ИТ-новостей с разъяснениями
+                        </li>
+                        <li>
+                          Представительство интересов в судах
+                        </li>
+            				</ul>
+            				<button class="info-button" id="info3"><i class="fa fa-info"></i></button>
+          			  </div><!-- /services-wrapper -->
+                </div><!-- /services-block -->
+                <!-- Services: forth block -->
+                <div class="services-block forth col-xs-12 col-sm-6">
+          			  <span class="icon forth"></span>
+          			  <div class="services-wrapper">
+          			    <h5 class="services-header">Разработка договоров<br /> и другой документации</h5>
+          				  <p>
+                      К сожалению, конфликты бывают в любой сфере. Если дело близится
+                      к суду или уже дошло до него, мы поможем отстоять ваши права и
+                      интересы.
+                    </p>
+          				  <button class="info-button" id="info4"><i class="fa fa-info"></i></button>
+          			  </div><!-- /services-wrapper -->
+                </div><!-- /services-block -->
+              </div><!--  .services-second.row -->
+          </div>
+
+
+        </div><!-- /Services -->
+
+
+        <hr class="block-divider" />
+
+        <div id="reviews" class="content container-fluid">
+          <!-- Reviews -->
+          <!-- Reviews header -->
+          <div class="block-header-wrapper center-text row">
+            <div class="col-xs-12 col-sm-12">
+              <h4 class="block-header">Отзывы</h4>
+              <hr class="horizontal-line center-block" />
+              <p>
+                Мнение наших клиентов <span class="text-highlighted">делает мир и нас лучше :)</span>
+              </p>
+            </div>
+          </div>
+          <div class="reviews row">
+            <!-- Reviews: first block -->
+            <div class="reviews-block col-xs-12 col-sm-4">
+              <p class="reviews-text">
+                Главная тема для меня - любовь. Мы все хотим ее, но не знаем как получить,
+                поэтому все, что мы делаем, - это всего лишь попытки найти счастье.
+              </p>
+  			      <span  class="review photo first">
+                <img alt="photo" src="images/photo1.png" />
+              </span>
+              <p class="person-name text-highlighted">
+                Алексей Фёдоров
+              </p>
+              <p class="company">
+                CEO&nbsp;<span class="point">.</span>&nbsp;<span class="text-highlighted">deco.agency</span>
+              </p>
+            </div><!-- /Reviews-block -->
+            <!-- Reviews: second block -->
+            <div class="reviews-block col-xs-12 col-sm-4">
+              <p class="reviews-text">
+                Главная тема для меня - любовь. Мы все хотим ее, но не знаем как получить,
+                поэтому все, что мы делаем, - это всего лишь попытки найти счастье.
+              </p>
+        			<span  class="review photo second">
+                <img alt="photo" src="images/photo2.png" />
+        			</span>
+              <p class="person-name text-highlighted">
+                Артур Оруджалиев
+              </p>
+              <p class="company">
+                CEO&nbsp;<span class="point">.</span>&nbsp;<span class="text-highlighted">AIN.ua</span>
+              </p>
+            </div><!-- /Reviews-block -->
+            <!-- Reviews: third block -->
+            <div class="reviews-block video-block hidden-xs col-sm-4">
+              <div  class="review video">
+                <img alt="video" src="images/video.png" class="video-content" />
+        			  <button class="play-button">
+                  <img alt="play-button" src="images/btn-play-video.png" />
+        			  </button>
+        			</div>
+              <p class="person-name text-highlighted">
+                Григорий Маленко
+              </p>
+              <p class="company">
+                CEO&nbsp;<span class="point">.</span>&nbsp;<span class="text-highlighted">SERM.ua</span>
+              </p>
+            </div><!-- /Reviews-block -->
+          </div><!-- /.row -->
+          <!-- Load more -->
+          <div class="center-text row">
+              <div class="col-xs-12 col-sm-12">
+        			  <button class="load-more text-highlighted">
+        			    <img alt="load-more-icon" src="images/btn-load-more.png" />
+        				  Загрузить ещё
+        			  </button>
+              </div>
+            </div>
+        </div><!-- /Reviews -->
+
+
+        <hr class="block-divider" />
+
+        <div id="contacts" class="content container">
+          <!-- Service request -->
+          <!-- Request header -->
+          <div class="block-header-wrapper center-text row">
+            <div class="col-xs-12 col-sm-12">
+              <h4 class="block-header">Запрос на услуги</h4>
+              <hr class="horizontal-line center-block" />
+            </div>
+          </div>
+          <div class="row">
+            <!-- Request form -->
+            <form class="col-xs-12 col-sm-10 col-sm-offset-1">
+              <div class="row">
+                <div class="first-column col-xs-12 col-sm-6">
+                  <div class="form-group">
+                    <input type="text" name="name" placeholder="Имя*" required />
+                    <input type="text" name="phone" placeholder="Телефон*" required />
+                    <input type="email" name="email" placeholder="E-mail*" required />
+                    <input type="url" name="url" placeholder="Сайт" />
+                  </div><!-- /.form-group -->
+
+                  <div class="form-group interest">
+                    <div class="interest-header">
+                      <label class="form-label">Меня интересует</label>
+                      <img alt="icon" src="images/arrow-icon.png" />
+                    </div>
+                    <div class="interest-options">
+                      <div class="radio">
+              			    <label for="answer1">
+                				  <input type="radio" name="interest" value="answer1" id="answer1">
+                          <span class="radio-btn"></span>
+                				  <span class="radio-text">Наведение порядка в делах</span>
+              			    </label>
+              			  </div>
+                      <div class="radio">
+              			    <label for="answer2">
+                				  <input type="radio" name="interest" value="answer2" id="answer2">
+                          <span class="radio-btn"></span>
+                          <span class="radio-text">Правовое сопровождение деятельности</span>
+              			    </label>
+              			  </div>
+                      <div class="radio">
+              			    <label for="answer3">
+                				  <input type="radio" name="interest" value="answer3" id="answer3">
+                          <span class="radio-btn"></span>
+                          <span class="radio-text">Оптимизация договорных отношений</span>
+              			    </label>
+              			  </div>
+                      <div class="radio">
+              			    <label for="answer4">
+                				  <input type="radio" name="interest" value="answer4" id="answer4">
+                          <span class="radio-btn"></span>
+                          <span class="radio-text">Разработка договоров</span>
+              			    </label>
+              			  </div>
+                    </div><!-- /.interest-options -->
+                  </div><!-- /.form-group.interest -->
+    			      </div>
+
+                <div class="second-column col-xs-12 col-sm-6">
+                  <label class="form-label">Дополнительная информация</label>
+                  <textarea name="additional-info" placeholder="Введите текст ..."></textarea>
+                </div>
+              </div><!-- /.row -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                  <button class="send-button center-block">Отправить</button>
+                </div>
+              </div><!-- /.row -->
+            </form>
+            <!-- /Request form -->
+          </div>
+          <!-- /Service request -->
+        </div><!-- /.content.container -->
+
+        <hr class="block-divider" />
+      </div><!-- /.content-wrapper -->
+
+      <footer class="container">
+        <div class="center-text row">
+          <div class="col-xs-12 col-sm-12">
+            <p class="name">
+              Pravo Agency:
+            </p>
+            <p class="contacts address">
+              01001, Киев, ул. Костёльная 9б оф.8
+            </p>
+            <p class="contacts phone">
+              +380 (67) 324 10 10
+            </p>
+            <p class="contacts email">
+              hello@pravo.agency
+            </p>
+
+            <!-- Networks -->
+            <div class="networks">
+
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-linkedin"></i>
+            </div>
+
+            <p class="copy">
+              &copy;2015, <span class="copy-name">Pravo agency</span>
+            </p>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
