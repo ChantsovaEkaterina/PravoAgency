@@ -52,6 +52,13 @@ $(document).ready(function() {
     $(".services-block").css("visibility", "visible");
   }
 
+  $(window).resize(function(){
+    if (!$("modal").is(':visible')) {
+      $(".services-block").css("visibility", "visible");
+      $("#modal").hide();
+    }
+  });
+
   $("#info1").click(function(){
     showModal(1);
   });
